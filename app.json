@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "Novacalculatorup",
-    "slug": "Novacalculatorup",
-    "version": "1.0.0",
+    "name": "Novacalculator",
+    "slug": "Novacalculator",
+    "version": "1.0.1 ",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/NovaCalculatorApp.jpg",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/splash-screen.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -19,12 +19,24 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/NovaCalculatorApp.jpg",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.nova009.Novacalculator"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1e70838e-34f6-4601-897f-adda5fb71245"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/1e70838e-34f6-4601-897f-adda5fb71245"
     }
   }
 }
